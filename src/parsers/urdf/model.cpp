@@ -575,7 +575,6 @@ namespace se3
 
       if (urdfTree)
 	{
-	  model.name = urdfTree->getName();
 	  ParseRootTreeVisitor::run(urdfTree->getRoot(),model,root_joint,verbose);
 	}
       else
